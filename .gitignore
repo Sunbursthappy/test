@@ -1,0 +1,78 @@
+#必须上传src文件
+!src/
+!*.so
+!*.so.*
+
+#忽略 build文件夹
+/build/
+
+#忽略vscode配置文件夹
+/.vscode/
+/.vs/
+
+#忽略所有txt文件
+/*.txt/
+#CMakeLists.txt除外
+！CMakeLists.txt
+
+# Prerequisites
+*.d
+
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+*.htm
+
+# Linker output
+*.ilk
+*.map
+*.exp
+*.crf
+*.axf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+#*.so
+#*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+
+#install
+/install/
+
+#log
+/log/
+
+#data
+/data/
